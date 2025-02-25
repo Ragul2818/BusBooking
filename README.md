@@ -3,9 +3,16 @@
 
 
 netstat -ano | findstr :27017
+
 net start MongoDB
+
+
 cd C:/Users/91741/Desktop/Task2
+
+
 docker run -p 5000:5000 bus-booking-api
+
+
 ✅ Expected Output:
 Server running on port 5000
 MongoDB Connected
